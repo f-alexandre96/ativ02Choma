@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+header{
+    background-color: blanchedalmond;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+}
+.corpo{
+    max-width: 800px; 
+    width: 100%; 
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    
+   
+}
+.corpo img{
+   display: block;
+   margin: auto;
+   width: 300px;
+   height: auto;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.table{
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+form{
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
